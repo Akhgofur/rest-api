@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="site-header site-header--white">
+        <div class="site-header__container container">
+            <h1 class="site-header__title">
+                Where in the world?
+            </h1>
+            <button type="button" class="site-header__dark-mode-btn js-header-btn">
+                Dark Mode
+            </button>
+        </div>
+    </header>
+    <main class="site-main site-main--white">
+        <section class="flags container">
+            <form action="https://echo.htmlacademy.ru/" class="flags__form">
+                <input type="text" class="flags__input" placeholder="Search for a country…">
+                <select name="countries" id="countries" class="flags__select">
+                    <option value="" selected class="flags__select-obj">Filter by Region</option>
+                    <option value="Africa" class="flags__select-obj">Africa</option>
+                    <option value="America" class="flags__select-obj">America</option>
+                    <option value="Asia" class="flags__select-obj">Asia</option>
+                    <option value="Europe" class="flags__select-obj">Europe</option>
+                    <option value="Oceania" class="flags__select-obj">Oceania</option>
+                </select>
+            </form>
+            <ul class="flags__list">
+                <li class="flags__item">
+                    <img src="img/germany.jpg" alt="flag of germany" class="flags__item-img" width="267" height="160">
+                    <h2 class="flags__item-tile">
+                        Germany
+                    </h2>
+                    <ul class="flags__item-list">
+                        <li class="flags__item-content">
+                            <h3 class="flags__item-heading">
+                                Population:
+                            </h3>
+                            <p class="flags__item-description">
+                                81,770,900
+                            </p>
+                        </li>
+                        <li class="flags__item-content">
+                            <h3 class="flags__item-heading">
+                                Region:
+                            </h3>
+                            <p class="flags__item-description">
+                                Europe
+                            </p>
+                        </li>
+                        <li class="flags__item-content">
+                            <h3 class="flags__item-heading">
+                                Capital: 
+                            </h3>
+                            <p class="flags__item-description">
+                                Berlin
+                            </p>
+                        </li>
+                    </ul>
+                </li>
+                <li class="flags__item">
+                    <img src="img/usa.jpg" alt="flag of germany" class="flags__item-img" width="267" height="160">
+                    <h2 class="flags__item-tile">
+                        United States of America
+                    </h2>
+                    <ul class="flags__item-list">
+                        <li class="flags__item-content">
+                            <h3 class="flags__item-heading">
+                                Population:
+                            </h3>
+                            <p class="flags__item-description">
+                                323,947,000
+                            </p>
+                        </li>
+                        <li class="flags__item-content">
+                            <h3 class="flags__item-heading">
+                                Region:
+                            </h3>
+                            <p class="flags__item-description">
+                                Americas
+                            </p>
+                        </li>
+                        <li class="flags__item-content">
+                            <h3 class="flags__item-heading">
+                                Capital: 
+                            </h3>
+                            <p class="flags__item-description">
+                                Washington,D.C.
+                            </p>
+                        </li>
+                    </ul>
+                </li>
+                <li class="flags__item">
+                    <img src="img/brazil.jpg" alt="flag of germany" class="flags__item-img" width="267" height="160">
+                    <h2 class="flags__item-tile">
+                        Brasil
+                    </h2>
+                    <ul class="flags__item-list">
+                        <li class="flags__item-content">
+                            <h3 class="flags__item-heading">
+                                Population:
+                            </h3>
+                            <p class="flags__item-description">
+                                206,135,893
+                            </p>
+                        </li>
+                        <li class="flags__item-content">
+                            <h3 class="flags__item-heading">
+                                Region:
+                            </h3>
+                            <p class="flags__item-description">
+                                Americas
+                            </p>
+                        </li>
+                        <li class="flags__item-content">
+                            <h3 class="flags__item-heading">
+                                Capital: 
+                            </h3>
+                            <p class="flags__item-description">
+                                Brasília
+                            </p>
+                        </li>
+                    </ul>
+                </li>
+                <li class="flags__item">
+                    <img src="img/iceland.jpg" alt="flag of germany" class="flags__item-img" width="267" height="160">
+                    <h2 class="flags__item-tile">
+                        Iceland
+                    </h2>
+                    <ul class="flags__item-list">
+                        <li class="flags__item-content">
+                            <h3 class="flags__item-heading">
+                                Population:
+                            </h3>
+                            <p class="flags__item-description">
+                                334,300
+                            </p>
+                        </li>
+                        <li class="flags__item-content">
+                            <h3 class="flags__item-heading">
+                                Region:
+                            </h3>
+                            <p class="flags__item-description">
+                                Europe
+                            </p>
+                        </li>
+                        <li class="flags__item-content">
+                            <h3 class="flags__item-heading">
+                                Capital: 
+                            </h3>
+                            <p class="flags__item-description">
+                                Reykjavík
+                            </p>
+                        </li>
+                    </ul>
+                </li>
+                <li class="flags__item">
+                    <img src="img/afghanistan.jpg" alt="flag of germany" class="flags__item-img" width="267" height="160">
+                    <h2 class="flags__item-tile">
+                        Afghanistan
+                    </h2>
+                    <ul class="flags__item-list">
+                        <li class="flags__item-content">
+                            <h3 class="flags__item-heading">
+                                Population:
+                            </h3>
+                            <p class="flags__item-description">
+                                27,657,145
+                            </p>
+                        </li>
+                        <li class="flags__item-content">
+                            <h3 class="flags__item-heading">
+                                Region:
+                            </h3>
+                            <p class="flags__item-description">
+                                Asia
+                            </p>
+                        </li>
+                        <li class="flags__item-content">
+                            <h3 class="flags__item-heading">
+                                Capital: 
+                            </h3>
+                            <p class="flags__item-description">
+                                Kabul
+                            </p>
+                        </li>
+                    </ul>
+                </li>
+                <li class="flags__item">
+                    <img src="img/aland-island-flag.jpg" alt="flag of germany" class="flags__item-img" width="267" height="160">
+                    <h2 class="flags__item-tile">
+                        Åland Islands
+                    </h2>
+                    <ul class="flags__item-list">
+                        <li class="flags__item-content">
+                            <h3 class="flags__item-heading">
+                                Population:
+                            </h3>
+                            <p class="flags__item-description">
+                                28,875
+                            </p>
+                        </li>
+                        <li class="flags__item-content">
+                            <h3 class="flags__item-heading">
+                                Region:
+                            </h3>
+                            <p class="flags__item-description">
+                                Europe
+                            </p>
+                        </li>
+                        <li class="flags__item-content">
+                            <h3 class="flags__item-heading">
+                                Capital: 
+                            </h3>
+                            <p class="flags__item-description">
+                                Mariehamn
+                            </p>
+                        </li>
+                    </ul>
+                </li>
+                <li class="flags__item">
+                    <img src="img/albania-flag.jpg" alt="flag of germany" class="flags__item-img" width="267" height="160">
+                    <h2 class="flags__item-tile">
+                        Albania
+                    </h2>
+                    <ul class="flags__item-list">
+                        <li class="flags__item-content">
+                            <h3 class="flags__item-heading">
+                                Population:
+                            </h3>
+                            <p class="flags__item-description">
+                                2,886,026
+                            </p>
+                        </li>
+                        <li class="flags__item-content">
+                            <h3 class="flags__item-heading">
+                                Region:
+                            </h3>
+                            <p class="flags__item-description">
+                                Europe
+                            </p>
+                        </li>
+                        <li class="flags__item-content">
+                            <h3 class="flags__item-heading">
+                                Capital: 
+                            </h3>
+                            <p class="flags__item-description">
+                                Tirana
+                            </p>
+                        </li>
+                    </ul>
+                </li>
+                <li class="flags__item">
+                    <img src="img/algeria-flag.jpg" alt="flag of germany" class="flags__item-img" width="267" height="160">
+                    <h2 class="flags__item-tile">
+                        Algeria
+                    </h2>
+                    <ul class="flags__item-list">
+                        <li class="flags__item-content">
+                            <h3 class="flags__item-heading">
+                                Population:
+                            </h3>
+                            <p class="flags__item-description">
+                                40,400,000
+                            </p>
+                        </li>
+                        <li class="flags__item-content">
+                            <h3 class="flags__item-heading">
+                                Region:
+                            </h3>
+                            <p class="flags__item-description">
+                                Africa
+                            </p>
+                        </li>
+                        <li class="flags__item-content">
+                            <h3 class="flags__item-heading">
+                                Capital: 
+                            </h3>
+                            <p class="flags__item-description">
+                                Algiers
+                            </p>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <script src="js/main.js"></script>
+</body>
+</html>
