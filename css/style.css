@@ -103,6 +103,7 @@ img {
 }
 .site-main {
     background-color: var(--background-color);
+    min-height: 100vh;
 }
 .flags__form {
     display: flex;
@@ -259,6 +260,7 @@ img {
 .site-main--white
 .flags__input {
     background-color: #fff;
+    color: #111517;
 }
 .site-main--white
 .flags__select {
