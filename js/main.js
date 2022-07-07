@@ -4,7 +4,6 @@ fetch('https://restcountries.com/v3.1/all')
 .then(response => response.json())
 .then(data => {
   countries = data.slice(0, 15)
-  console.log(countries)
   countriesRender(countries, elFlagsList)
   regionFilter(countries, elOptionsList)
   function searchCountry(evt){
